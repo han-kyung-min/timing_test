@@ -9,9 +9,9 @@ map1.ot :           probablity map with octree info
 
 point_xyz_0.txt :   xyz point cloud reconstructed from the view point 0
 
-camerapose_0.txt:   the camera pose info (quat + tran)
+camerapose_0.txt:   the camera pose info of the view point 0 (quat + tran)
 
-figures/map1.png:   2D grid map obtained from this scene id
+figures/map1.png:   2D grid map obtained from this scene
 
 figures/map1_config.pdf:  2D gridmap with the selected view points  
 
