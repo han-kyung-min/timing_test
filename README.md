@@ -27,6 +27,10 @@ rayshooting_0.txt:      The rayshooting time for the points stored in "point_xyz
 
 frame0000.jpg:          snapshot at viewpoint0
 
+box_cent.txt:           centroids (x,y,z) of the boxes w.r.t the cam coord frame (1st row) and the world coord frame (the 2nd row)
+
+view*_wrt_cam.jpg:      A plot of point clouds + cam pose + boundingbox w.r.t cam coord frame.
+view*_wrt_world.jpg:    A plot of point clouds + cam pose + boundingbox w.r.t world coord frame.
 
 
 
