@@ -26,10 +26,9 @@ set(gca(), 'XTickLabel', datalabels, 'fontsize', 12);
 
 h_leg = legend( components ) ;
 set(h_leg, 'fontsize',12, 'location', 'NorthWest') ;
-yaxis([0 5000])
 
-
-ylabel('Run Time (ms)')
+ylabel('Time (ms)')
+xlabel('View')
 
 %saveTightFigure(hfig,'timing_res.pdf')
 
